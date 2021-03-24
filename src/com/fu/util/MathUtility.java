@@ -17,7 +17,7 @@ public class MathUtility {
     // Use static
     public static final double PI = 3.1415;
     public static long getFactorial(int n) {
-    long factorial = 0;
+    long factorial = 1;
         if (n<0 || n>20){
             throw new IllegalArgumentException("Invalid argument. n must be between 0..20");
         }
