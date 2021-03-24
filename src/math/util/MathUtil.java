@@ -5,6 +5,8 @@
  */
 package math.util;
 
+import com.fu.util.MathUtility;
+
 /**
  *
  * @author Acer
@@ -18,6 +20,14 @@ public class MathUtil {
         // TODO code application logic here
         System.out.println("Hello github");
         System.out.println("This is 1st upload that connects to remote server: Github");
+        
+        // 5 giai thua co = 120 hay k
+        int n = 5;
+        long expected = 120; // hy vong ham tinh ra 120
+        long actual = MathUtility.getFactorial(n);
+        System.out.println("5! expected: " + expected
+                           +"; actual " + actual);
+        
     }
     
 }
